@@ -1,3 +1,11 @@
+@font-face {
+    font-family: prathmesh-font;
+    src: url('./asset/Best\ Work.otf');
+}
+@font-face {
+    font-family: prathmesh-font-2;
+    src: url('./asset/Gourami.otf');
+}
 *{
     margin: 0;
     padding:0;
@@ -21,11 +29,15 @@ h2{
     text-transform: uppercase;
     color:#fff;
     text-shadow: 2px 2px 5px #000;
+    font-family: prathmesh-font;
+    color: brown;
 }
 p{
-    font-size: 30px;
-    color:antiquewhite;
-    font-weight: bold;
+    font-size: 50px;
+    font-weight: 100;
+    color: blanchedalmond;
+    font-family: prathmesh-font-2;
+    font-size: 50px;
 }
 .section-2{
     background-repeat: no-repeat;
