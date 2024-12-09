@@ -23,6 +23,15 @@ section{
     background-size: 100% auto;
     background-attachment: fixed;
 }
+
+section p::selection{
+    background-color: thistle;
+}
+section h2::selection{
+    background-color: antiquewhite;
+
+}
+
 h2{
     font-size: 64px;
     font-weight: bold;
