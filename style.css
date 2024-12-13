@@ -19,9 +19,30 @@ section{
     background-repeat: no-repeat;
     display: grid;
     text-align: center;
-    place-items: center;;
+    place-items: center;
     background-size: 100% auto;
     background-attachment: fixed;
+    transition:all 2s linear;
+    -webkit-transition:all 2s linear;
+    -moz-transition:all 2s linear;
+    -ms-transition:all 2s linear;
+    -o-transition:all 2s linear;
+}
+
+.section-1{
+    transition: all 3s linear;
+    -webkit-transition: all 3s linear;
+    -moz-transition: all 3s linear;
+    -ms-transition: all 3s linear;
+    -o-transition: all 3s linear;
+}
+
+.section-1 h2:hover{
+    transform:scale(1.5);
+    -webkit-transform:scale(1.5);
+    -moz-transform:scale(1.5);
+    -ms-transform:scale(1.5);
+    -o-transform:scale(1.5);
 }
 
 section p::selection{
@@ -41,6 +62,7 @@ h2{
     font-family: prathmesh-font;
     color:thistle;
     text-shadow: 10px 10px 5px black;
+    transition: transform 0.3s ease-in-out;
 }
 p{
     font-size: 50px;
@@ -54,6 +76,18 @@ p{
     background-size: 100% auto;
     background-image: url(./asset/2.jpg);
     background-attachment: fixed;
+    transition: transform 5s linear;
+    -webkit-transition: transform 5s linear;
+    -moz-transition: transform 5s linear;
+    -ms-transition: transform 5s linear;
+    -o-transition: transform 5s linear;
+}
+.section-2 h2:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
 .section-3 {
     background-repeat: no-repeat;
@@ -61,11 +95,25 @@ p{
     background-image: url(./asset/3.jpg);
     background-attachment: fixed;
 }
+.section-3 h2:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
 .section-4 {
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-image: url(./asset/4.jpg);
     background-attachment: fixed;
+}
+.section-4 h2:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
 .section-5 {
     background-repeat: no-repeat;
@@ -73,15 +121,36 @@ p{
     background-image: url(./asset/5.jpg);
     background-attachment: fixed;
 }
+.section-5 h2:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
 .section-6 {
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-image: url(./asset/6.jpg);
     background-attachment: fixed;
 }
+.section-6 h2:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
+}
 .section-7 {
     background-repeat: no-repeat;
     background-size: 100% auto;
     background-image: url(./asset/7.jpg);
     background-attachment: fixed;
+}
+.section-7 h2:hover {
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -o-transform: scale(1.5);
 }
